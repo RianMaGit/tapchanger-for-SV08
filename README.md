@@ -1,4 +1,4 @@
-# Tapchanger
+# Tapchanger for Sovol SV08
 
 A toolchanger for Sovol SV08.
 
@@ -13,25 +13,24 @@ are an option but limited support. (Experimental version of the [Rapid Burner](h
 * No servos, no wires on the shuttle, recommended to use with a Canbus toolhead board for less wires, but anything goes.
 
 ![Sovol Rebuild](/images/sovol-tapchanger/Dragon_Burner_Sovol-rebuild_fl.png)
-![Voron Shuttle](/images/voron-tapchanger/shuttle-pomo.jpg)
-![Voron Printer](/images/voron-tapchanger/printer.jpg) 
+
 
 # Build guide
 
-I would recommend to get a single hotend working first:
+Dont't have a BOM at the time.
 
-* Check the [BOM](/Tapchanger/BOM.md).
-* [Print](./Print%20Guide.md) the parts.
-* [Assemble](/Tapchanger/Assembly.md) it.
+see [CAD](\Sovol-Tapchanger\CAD\Dragon_Burner_Sovol-rebuild.step) file and print with FDM Printer:
+* black extruder part (Nylon 12 CF, ABS, ...)
+* green part (PLA, PETG, ...)
+* orange part (Nylon 12 CF, ABS, ...)
+* red and blue part (Nylon 12 CF, ABS, ...)
 
-Multiple tools setup:
-* Install [Umbilical](/Umbilical/Umbilical.md)
+to print with SLA or you can test with FDM:
+* Gearhousing at the extruder black part
 
 # Community
 
-
-
-See Tapchanger from viesturz for the Voron 2.4[youtube channel](https://www.youtube.com/playlist?list=PLqU7kX5nUJDRDw5z0NLwJ22OkV6fbjnSW).
+See Tapchanger from viesturz for the Voron 2.4 [youtube channel](https://www.youtube.com/playlist?list=PLqU7kX5nUJDRDw5z0NLwJ22OkV6fbjnSW).
 
 # Credits
 
@@ -43,4 +42,5 @@ See Tapchanger from viesturz for the Voron 2.4[youtube channel](https://www.yout
 
 ## V0 - prototype
  
- - can't print at the time
+ - is not tested at the time
+ - need help with CAN-BUS and the Sovol Extruder bord
