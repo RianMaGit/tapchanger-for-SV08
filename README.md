@@ -19,7 +19,7 @@ are an option but limited support. (Experimental version of the [Rapid Burner](h
 
 Dont't have a BOM at the time.
 
-see [CAD](\Sovol-Tapchanger\CAD\Dragon_Burner_Sovol-rebuild.step) file and print with FDM Printer:
+see [CAD](Sovol-Tapchanger/CAD/Dragon_Burner_Sovol-rebuild.step) file and print with FDM Printer:
 * black extruder part (Nylon 12 CF, ABS, ...)
 * green part (PLA, PETG, ...)
 * orange part (Nylon 12 CF, ABS, ...)
